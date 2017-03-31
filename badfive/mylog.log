@@ -1,0 +1,369 @@
+DEBUG    [2017-03-28 14:33:22,570] This is a debug message
+INFO     [2017-03-28 14:33:22,570] This is an info message
+WARNING  [2017-03-28 14:33:22,570] This is a warning
+ERROR    [2017-03-28 14:33:22,571] This is an error message
+CRITICAL [2017-03-28 14:33:22,571] FATAL!!!
+DEBUG    [2017-03-28 14:33:38,241] starting thread (client mode): 0xe6239588
+DEBUG    [2017-03-28 14:33:38,242] Local version/idstring: SSH-2.0-paramiko_2.1.2
+DEBUG    [2017-03-28 14:33:38,859] Remote version/idstring: SSH-2.0-Zyxel SSH server
+INFO     [2017-03-28 14:33:38,859] Connected (version 2.0, client Zyxel)
+DEBUG    [2017-03-28 14:33:39,619] kex algos:['diffie-hellman-group-exchange-sha1', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1'] server key:['ssh-rsa'] client encrypt:['aes128-cbc', '3des-cbc', 'blowfish-cbc', 'cast128-cbc', 'arcfour128', 'arcfour256', 'arcfour', 'aes192-cbc', 'aes256-cbc', 'rijndael-cbc@lysator.liu.se', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr'] server encrypt:['aes128-cbc', '3des-cbc', 'blowfish-cbc', 'cast128-cbc', 'arcfour128', 'arcfour256', 'arcfour', 'aes192-cbc', 'aes256-cbc', 'rijndael-cbc@lysator.liu.se', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr'] client mac:['hmac-md5', 'hmac-sha1', 'hmac-ripemd160', 'hmac-ripemd160@openssh.com', 'hmac-sha1-96', 'hmac-md5-96'] server mac:['hmac-md5', 'hmac-sha1', 'hmac-ripemd160', 'hmac-ripemd160@openssh.com', 'hmac-sha1-96', 'hmac-md5-96'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+DEBUG    [2017-03-28 14:33:39,620] Kex agreed: diffie-hellman-group1-sha1
+DEBUG    [2017-03-28 14:33:39,620] Cipher agreed: aes128-ctr
+DEBUG    [2017-03-28 14:33:39,620] MAC agreed: hmac-md5
+DEBUG    [2017-03-28 14:33:39,621] Compression agreed: none
+DEBUG    [2017-03-28 14:33:40,736] kex engine KexGroup1 specified hash_algo <built-in function openssl_sha1>
+DEBUG    [2017-03-28 14:33:40,736] Switch to new keys ...
+DEBUG    [2017-03-28 14:33:40,737] Adding ssh-rsa host key for 89.113.3.131: b'a40d7fd7be0daf32c347fd4c812440ff'
+DEBUG    [2017-03-28 14:33:41,318] userauth is OK
+INFO     [2017-03-28 14:33:42,059] Authentication (password) successful!
+DEBUG    [2017-03-28 14:33:42,060] [chan 0] Max packet in: 32768 bytes
+DEBUG    [2017-03-28 14:33:42,599] [chan 0] Max packet out: 32768 bytes
+DEBUG    [2017-03-28 14:33:42,599] Secsh channel 0 opened.
+DEBUG    [2017-03-28 14:33:42,999] [chan 0] Sesch channel 0 request ok
+DEBUG    [2017-03-28 14:33:43,478] [chan 0] Sesch channel 0 request ok
+DEBUG    [2017-03-28 14:35:37,224] This is a debug message
+INFO     [2017-03-28 14:35:37,225] This is an info message
+WARNING  [2017-03-28 14:35:37,225] This is a warning
+ERROR    [2017-03-28 14:35:37,225] This is an error message
+CRITICAL [2017-03-28 14:35:37,225] FATAL!!!
+DEBUG    [2017-03-28 14:35:38,198] starting thread (client mode): 0x818175c0
+DEBUG    [2017-03-28 14:35:38,200] Local version/idstring: SSH-2.0-paramiko_2.1.2
+DEBUG    [2017-03-28 14:35:38,517] Remote version/idstring: SSH-2.0-Zyxel SSH server
+INFO     [2017-03-28 14:35:38,517] Connected (version 2.0, client Zyxel)
+DEBUG    [2017-03-28 14:35:39,037] kex algos:['diffie-hellman-group-exchange-sha1', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1'] server key:['ssh-rsa'] client encrypt:['aes128-cbc', '3des-cbc', 'blowfish-cbc', 'cast128-cbc', 'arcfour128', 'arcfour256', 'arcfour', 'aes192-cbc', 'aes256-cbc', 'rijndael-cbc@lysator.liu.se', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr'] server encrypt:['aes128-cbc', '3des-cbc', 'blowfish-cbc', 'cast128-cbc', 'arcfour128', 'arcfour256', 'arcfour', 'aes192-cbc', 'aes256-cbc', 'rijndael-cbc@lysator.liu.se', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr'] client mac:['hmac-md5', 'hmac-sha1', 'hmac-ripemd160', 'hmac-ripemd160@openssh.com', 'hmac-sha1-96', 'hmac-md5-96'] server mac:['hmac-md5', 'hmac-sha1', 'hmac-ripemd160', 'hmac-ripemd160@openssh.com', 'hmac-sha1-96', 'hmac-md5-96'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+DEBUG    [2017-03-28 14:35:39,038] Kex agreed: diffie-hellman-group1-sha1
+DEBUG    [2017-03-28 14:35:39,038] Cipher agreed: aes128-ctr
+DEBUG    [2017-03-28 14:35:39,039] MAC agreed: hmac-md5
+DEBUG    [2017-03-28 14:35:39,039] Compression agreed: none
+DEBUG    [2017-03-28 14:35:40,215] kex engine KexGroup1 specified hash_algo <built-in function openssl_sha1>
+DEBUG    [2017-03-28 14:35:40,215] Switch to new keys ...
+DEBUG    [2017-03-28 14:35:40,216] Adding ssh-rsa host key for 89.113.3.131: b'a40d7fd7be0daf32c347fd4c812440ff'
+DEBUG    [2017-03-28 14:35:40,882] userauth is OK
+INFO     [2017-03-28 14:35:41,457] Authentication (password) successful!
+DEBUG    [2017-03-28 14:35:41,457] [chan 0] Max packet in: 32768 bytes
+DEBUG    [2017-03-28 14:35:42,081] [chan 0] Max packet out: 32768 bytes
+DEBUG    [2017-03-28 14:35:42,082] Secsh channel 0 opened.
+DEBUG    [2017-03-28 14:35:42,417] [chan 0] Sesch channel 0 request ok
+DEBUG    [2017-03-28 14:35:42,878] [chan 0] Sesch channel 0 request ok
+DEBUG    [2017-03-28 14:36:58,160] This is a debug message
+INFO     [2017-03-28 14:36:58,161] This is an info message
+WARNING  [2017-03-28 14:36:58,161] This is a warning
+ERROR    [2017-03-28 14:36:58,161] This is an error message
+CRITICAL [2017-03-28 14:36:58,161] FATAL!!!
+DEBUG    [2017-03-28 14:36:58,940] starting thread (client mode): 0x118e7588
+DEBUG    [2017-03-28 14:36:58,942] Local version/idstring: SSH-2.0-paramiko_2.1.2
+DEBUG    [2017-03-28 14:36:59,278] Remote version/idstring: SSH-2.0-Zyxel SSH server
+INFO     [2017-03-28 14:36:59,278] Connected (version 2.0, client Zyxel)
+DEBUG    [2017-03-28 14:36:59,738] kex algos:['diffie-hellman-group-exchange-sha1', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1'] server key:['ssh-rsa'] client encrypt:['aes128-cbc', '3des-cbc', 'blowfish-cbc', 'cast128-cbc', 'arcfour128', 'arcfour256', 'arcfour', 'aes192-cbc', 'aes256-cbc', 'rijndael-cbc@lysator.liu.se', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr'] server encrypt:['aes128-cbc', '3des-cbc', 'blowfish-cbc', 'cast128-cbc', 'arcfour128', 'arcfour256', 'arcfour', 'aes192-cbc', 'aes256-cbc', 'rijndael-cbc@lysator.liu.se', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr'] client mac:['hmac-md5', 'hmac-sha1', 'hmac-ripemd160', 'hmac-ripemd160@openssh.com', 'hmac-sha1-96', 'hmac-md5-96'] server mac:['hmac-md5', 'hmac-sha1', 'hmac-ripemd160', 'hmac-ripemd160@openssh.com', 'hmac-sha1-96', 'hmac-md5-96'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+DEBUG    [2017-03-28 14:36:59,738] Kex agreed: diffie-hellman-group1-sha1
+DEBUG    [2017-03-28 14:36:59,738] Cipher agreed: aes128-ctr
+DEBUG    [2017-03-28 14:36:59,738] MAC agreed: hmac-md5
+DEBUG    [2017-03-28 14:36:59,739] Compression agreed: none
+DEBUG    [2017-03-28 14:37:00,795] kex engine KexGroup1 specified hash_algo <built-in function openssl_sha1>
+DEBUG    [2017-03-28 14:37:00,795] Switch to new keys ...
+DEBUG    [2017-03-28 14:37:00,796] Adding ssh-rsa host key for 89.113.3.131: b'a40d7fd7be0daf32c347fd4c812440ff'
+DEBUG    [2017-03-28 14:37:01,479] userauth is OK
+INFO     [2017-03-28 14:37:02,079] Authentication (password) successful!
+DEBUG    [2017-03-28 14:37:02,080] [chan 0] Max packet in: 32768 bytes
+DEBUG    [2017-03-28 14:37:02,578] [chan 0] Max packet out: 32768 bytes
+DEBUG    [2017-03-28 14:37:02,578] Secsh channel 0 opened.
+DEBUG    [2017-03-28 14:37:02,999] [chan 0] Sesch channel 0 request ok
+DEBUG    [2017-03-28 14:37:03,419] [chan 0] Sesch channel 0 request ok
+DEBUG    [2017-03-28 14:37:40,316] This is a debug message
+INFO     [2017-03-28 14:37:40,316] This is an info message
+WARNING  [2017-03-28 14:37:40,316] This is a warning
+ERROR    [2017-03-28 14:37:40,316] This is an error message
+CRITICAL [2017-03-28 14:37:40,316] FATAL!!!
+DEBUG    [2017-03-28 14:37:41,460] starting thread (client mode): 0xdffb0588
+DEBUG    [2017-03-28 14:37:41,460] Local version/idstring: SSH-2.0-paramiko_2.1.2
+DEBUG    [2017-03-28 14:37:41,779] Remote version/idstring: SSH-2.0-Zyxel SSH server
+INFO     [2017-03-28 14:37:41,780] Connected (version 2.0, client Zyxel)
+DEBUG    [2017-03-28 14:37:42,319] kex algos:['diffie-hellman-group-exchange-sha1', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1'] server key:['ssh-rsa'] client encrypt:['aes128-cbc', '3des-cbc', 'blowfish-cbc', 'cast128-cbc', 'arcfour128', 'arcfour256', 'arcfour', 'aes192-cbc', 'aes256-cbc', 'rijndael-cbc@lysator.liu.se', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr'] server encrypt:['aes128-cbc', '3des-cbc', 'blowfish-cbc', 'cast128-cbc', 'arcfour128', 'arcfour256', 'arcfour', 'aes192-cbc', 'aes256-cbc', 'rijndael-cbc@lysator.liu.se', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr'] client mac:['hmac-md5', 'hmac-sha1', 'hmac-ripemd160', 'hmac-ripemd160@openssh.com', 'hmac-sha1-96', 'hmac-md5-96'] server mac:['hmac-md5', 'hmac-sha1', 'hmac-ripemd160', 'hmac-ripemd160@openssh.com', 'hmac-sha1-96', 'hmac-md5-96'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+DEBUG    [2017-03-28 14:37:42,320] Kex agreed: diffie-hellman-group1-sha1
+DEBUG    [2017-03-28 14:37:42,320] Cipher agreed: aes128-ctr
+DEBUG    [2017-03-28 14:37:42,321] MAC agreed: hmac-md5
+DEBUG    [2017-03-28 14:37:42,321] Compression agreed: none
+DEBUG    [2017-03-28 14:37:43,348] kex engine KexGroup1 specified hash_algo <built-in function openssl_sha1>
+DEBUG    [2017-03-28 14:37:43,349] Switch to new keys ...
+DEBUG    [2017-03-28 14:37:43,349] Adding ssh-rsa host key for 89.113.3.131: b'a40d7fd7be0daf32c347fd4c812440ff'
+DEBUG    [2017-03-28 14:37:43,966] userauth is OK
+INFO     [2017-03-28 14:37:44,385] Authentication (password) successful!
+DEBUG    [2017-03-28 14:37:44,386] [chan 0] Max packet in: 32768 bytes
+DEBUG    [2017-03-28 14:37:44,719] [chan 0] Max packet out: 32768 bytes
+DEBUG    [2017-03-28 14:37:44,720] Secsh channel 0 opened.
+DEBUG    [2017-03-28 14:37:45,019] [chan 0] Sesch channel 0 request ok
+DEBUG    [2017-03-28 14:37:45,319] [chan 0] Sesch channel 0 request ok
+DEBUG    [2017-03-28 14:39:03,430] This is a debug message
+INFO     [2017-03-28 14:39:03,431] This is an info message
+WARNING  [2017-03-28 14:39:03,431] This is a warning
+ERROR    [2017-03-28 14:39:03,431] This is an error message
+CRITICAL [2017-03-28 14:39:03,431] FATAL!!!
+DEBUG    [2017-03-28 14:39:06,102] starting thread (client mode): 0x8f192588
+DEBUG    [2017-03-28 14:39:06,103] Local version/idstring: SSH-2.0-paramiko_2.1.2
+DEBUG    [2017-03-28 14:39:06,355] Remote version/idstring: SSH-2.0-Zyxel SSH server
+INFO     [2017-03-28 14:39:06,356] Connected (version 2.0, client Zyxel)
+DEBUG    [2017-03-28 14:39:06,916] kex algos:['diffie-hellman-group-exchange-sha1', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1'] server key:['ssh-rsa'] client encrypt:['aes128-cbc', '3des-cbc', 'blowfish-cbc', 'cast128-cbc', 'arcfour128', 'arcfour256', 'arcfour', 'aes192-cbc', 'aes256-cbc', 'rijndael-cbc@lysator.liu.se', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr'] server encrypt:['aes128-cbc', '3des-cbc', 'blowfish-cbc', 'cast128-cbc', 'arcfour128', 'arcfour256', 'arcfour', 'aes192-cbc', 'aes256-cbc', 'rijndael-cbc@lysator.liu.se', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr'] client mac:['hmac-md5', 'hmac-sha1', 'hmac-ripemd160', 'hmac-ripemd160@openssh.com', 'hmac-sha1-96', 'hmac-md5-96'] server mac:['hmac-md5', 'hmac-sha1', 'hmac-ripemd160', 'hmac-ripemd160@openssh.com', 'hmac-sha1-96', 'hmac-md5-96'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+DEBUG    [2017-03-28 14:39:06,916] Kex agreed: diffie-hellman-group1-sha1
+DEBUG    [2017-03-28 14:39:06,917] Cipher agreed: aes128-ctr
+DEBUG    [2017-03-28 14:39:06,917] MAC agreed: hmac-md5
+DEBUG    [2017-03-28 14:39:06,917] Compression agreed: none
+DEBUG    [2017-03-28 14:39:07,876] kex engine KexGroup1 specified hash_algo <built-in function openssl_sha1>
+DEBUG    [2017-03-28 14:39:07,877] Switch to new keys ...
+DEBUG    [2017-03-28 14:39:07,877] Adding ssh-rsa host key for 89.113.3.131: b'a40d7fd7be0daf32c347fd4c812440ff'
+DEBUG    [2017-03-28 14:39:08,385] userauth is OK
+INFO     [2017-03-28 14:39:08,635] Authentication (password) successful!
+DEBUG    [2017-03-28 14:39:08,637] [chan 0] Max packet in: 32768 bytes
+DEBUG    [2017-03-28 14:39:09,655] [chan 0] Max packet out: 32768 bytes
+DEBUG    [2017-03-28 14:39:09,656] Secsh channel 0 opened.
+DEBUG    [2017-03-28 14:39:09,955] [chan 0] Sesch channel 0 request ok
+DEBUG    [2017-03-28 14:39:10,235] [chan 0] Sesch channel 0 request ok
+DEBUG    [2017-03-28 14:39:44,467] This is a debug message
+INFO     [2017-03-28 14:39:44,467] This is an info message
+WARNING  [2017-03-28 14:39:44,467] This is a warning
+ERROR    [2017-03-28 14:39:44,467] This is an error message
+CRITICAL [2017-03-28 14:39:44,468] FATAL!!!
+DEBUG    [2017-03-28 14:39:44,635] starting thread (client mode): 0x4d4845c0
+DEBUG    [2017-03-28 14:39:44,636] Local version/idstring: SSH-2.0-paramiko_2.1.2
+DEBUG    [2017-03-28 14:39:44,832] Remote version/idstring: SSH-2.0-Zyxel SSH server
+INFO     [2017-03-28 14:39:44,833] Connected (version 2.0, client Zyxel)
+DEBUG    [2017-03-28 14:39:45,374] kex algos:['diffie-hellman-group-exchange-sha1', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1'] server key:['ssh-rsa'] client encrypt:['aes128-cbc', '3des-cbc', 'blowfish-cbc', 'cast128-cbc', 'arcfour128', 'arcfour256', 'arcfour', 'aes192-cbc', 'aes256-cbc', 'rijndael-cbc@lysator.liu.se', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr'] server encrypt:['aes128-cbc', '3des-cbc', 'blowfish-cbc', 'cast128-cbc', 'arcfour128', 'arcfour256', 'arcfour', 'aes192-cbc', 'aes256-cbc', 'rijndael-cbc@lysator.liu.se', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr'] client mac:['hmac-md5', 'hmac-sha1', 'hmac-ripemd160', 'hmac-ripemd160@openssh.com', 'hmac-sha1-96', 'hmac-md5-96'] server mac:['hmac-md5', 'hmac-sha1', 'hmac-ripemd160', 'hmac-ripemd160@openssh.com', 'hmac-sha1-96', 'hmac-md5-96'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+DEBUG    [2017-03-28 14:39:45,375] Kex agreed: diffie-hellman-group1-sha1
+DEBUG    [2017-03-28 14:39:45,375] Cipher agreed: aes128-ctr
+DEBUG    [2017-03-28 14:39:45,375] MAC agreed: hmac-md5
+DEBUG    [2017-03-28 14:39:45,376] Compression agreed: none
+DEBUG    [2017-03-28 14:39:46,247] kex engine KexGroup1 specified hash_algo <built-in function openssl_sha1>
+DEBUG    [2017-03-28 14:39:46,248] Switch to new keys ...
+DEBUG    [2017-03-28 14:39:46,249] Adding ssh-rsa host key for 89.113.3.131: b'a40d7fd7be0daf32c347fd4c812440ff'
+DEBUG    [2017-03-28 14:39:46,793] userauth is OK
+INFO     [2017-03-28 14:39:47,073] Authentication (password) successful!
+DEBUG    [2017-03-28 14:39:47,075] [chan 0] Max packet in: 32768 bytes
+DEBUG    [2017-03-28 14:39:47,352] [chan 0] Max packet out: 32768 bytes
+DEBUG    [2017-03-28 14:39:47,352] Secsh channel 0 opened.
+DEBUG    [2017-03-28 14:39:47,533] [chan 0] Sesch channel 0 request ok
+DEBUG    [2017-03-28 14:39:47,753] [chan 0] Sesch channel 0 request ok
+DEBUG    [2017-03-28 14:41:28,442] This is a debug message
+INFO     [2017-03-28 14:41:28,442] This is an info message
+WARNING  [2017-03-28 14:41:28,443] This is a warning
+ERROR    [2017-03-28 14:41:28,443] This is an error message
+CRITICAL [2017-03-28 14:41:28,443] FATAL!!!
+DEBUG    [2017-03-28 14:41:29,217] starting thread (client mode): 0x621e0f90L
+DEBUG    [2017-03-28 14:41:29,219] Local version/idstring: SSH-2.0-paramiko_2.1.2
+DEBUG    [2017-03-28 14:41:29,539] Remote version/idstring: SSH-2.0-Zyxel SSH server
+INFO     [2017-03-28 14:41:29,539] Connected (version 2.0, client Zyxel)
+DEBUG    [2017-03-28 14:41:29,980] kex algos:[u'diffie-hellman-group-exchange-sha1', u'diffie-hellman-group14-sha1', u'diffie-hellman-group1-sha1'] server key:[u'ssh-rsa'] client encrypt:[u'aes128-cbc', u'3des-cbc', u'blowfish-cbc', u'cast128-cbc', u'arcfour128', u'arcfour256', u'arcfour', u'aes192-cbc', u'aes256-cbc', u'rijndael-cbc@lysator.liu.se', u'aes128-ctr', u'aes192-ctr', u'aes256-ctr'] server encrypt:[u'aes128-cbc', u'3des-cbc', u'blowfish-cbc', u'cast128-cbc', u'arcfour128', u'arcfour256', u'arcfour', u'aes192-cbc', u'aes256-cbc', u'rijndael-cbc@lysator.liu.se', u'aes128-ctr', u'aes192-ctr', u'aes256-ctr'] client mac:[u'hmac-md5', u'hmac-sha1', u'hmac-ripemd160', u'hmac-ripemd160@openssh.com', u'hmac-sha1-96', u'hmac-md5-96'] server mac:[u'hmac-md5', u'hmac-sha1', u'hmac-ripemd160', u'hmac-ripemd160@openssh.com', u'hmac-sha1-96', u'hmac-md5-96'] client compress:[u'none', u'zlib@openssh.com'] server compress:[u'none', u'zlib@openssh.com'] client lang:[u''] server lang:[u''] kex follows?False
+DEBUG    [2017-03-28 14:41:29,981] Kex agreed: diffie-hellman-group1-sha1
+DEBUG    [2017-03-28 14:41:29,981] Cipher agreed: aes128-ctr
+DEBUG    [2017-03-28 14:41:29,981] MAC agreed: hmac-md5
+DEBUG    [2017-03-28 14:41:29,982] Compression agreed: none
+DEBUG    [2017-03-28 14:41:30,927] kex engine KexGroup1 specified hash_algo <built-in function openssl_sha1>
+DEBUG    [2017-03-28 14:41:30,928] Switch to new keys ...
+DEBUG    [2017-03-28 14:41:30,940] Adding ssh-rsa host key for 89.113.3.131: a40d7fd7be0daf32c347fd4c812440ff
+DEBUG    [2017-03-28 14:41:31,539] userauth is OK
+INFO     [2017-03-28 14:41:32,119] Authentication (password) successful!
+DEBUG    [2017-03-28 14:41:32,121] [chan 0] Max packet in: 32768 bytes
+DEBUG    [2017-03-28 14:41:32,784] [chan 0] Max packet out: 32768 bytes
+DEBUG    [2017-03-28 14:41:32,784] Secsh channel 0 opened.
+DEBUG    [2017-03-28 14:41:33,099] [chan 0] Sesch channel 0 request ok
+DEBUG    [2017-03-28 14:41:33,400] [chan 0] Sesch channel 0 request ok
+DEBUG    [2017-03-28 14:41:34,325] EOF in transport thread
+DEBUG    [2017-03-28 14:41:45,995] This is a debug message
+INFO     [2017-03-28 14:41:45,995] This is an info message
+WARNING  [2017-03-28 14:41:45,996] This is a warning
+ERROR    [2017-03-28 14:41:45,996] This is an error message
+CRITICAL [2017-03-28 14:41:45,996] FATAL!!!
+DEBUG    [2017-03-28 14:41:46,436] starting thread (client mode): 0x5668cf90L
+DEBUG    [2017-03-28 14:41:46,438] Local version/idstring: SSH-2.0-paramiko_2.1.2
+DEBUG    [2017-03-28 14:41:46,780] Remote version/idstring: SSH-2.0-Zyxel SSH server
+INFO     [2017-03-28 14:41:46,781] Connected (version 2.0, client Zyxel)
+DEBUG    [2017-03-28 14:41:47,279] kex algos:[u'diffie-hellman-group-exchange-sha1', u'diffie-hellman-group14-sha1', u'diffie-hellman-group1-sha1'] server key:[u'ssh-rsa'] client encrypt:[u'aes128-cbc', u'3des-cbc', u'blowfish-cbc', u'cast128-cbc', u'arcfour128', u'arcfour256', u'arcfour', u'aes192-cbc', u'aes256-cbc', u'rijndael-cbc@lysator.liu.se', u'aes128-ctr', u'aes192-ctr', u'aes256-ctr'] server encrypt:[u'aes128-cbc', u'3des-cbc', u'blowfish-cbc', u'cast128-cbc', u'arcfour128', u'arcfour256', u'arcfour', u'aes192-cbc', u'aes256-cbc', u'rijndael-cbc@lysator.liu.se', u'aes128-ctr', u'aes192-ctr', u'aes256-ctr'] client mac:[u'hmac-md5', u'hmac-sha1', u'hmac-ripemd160', u'hmac-ripemd160@openssh.com', u'hmac-sha1-96', u'hmac-md5-96'] server mac:[u'hmac-md5', u'hmac-sha1', u'hmac-ripemd160', u'hmac-ripemd160@openssh.com', u'hmac-sha1-96', u'hmac-md5-96'] client compress:[u'none', u'zlib@openssh.com'] server compress:[u'none', u'zlib@openssh.com'] client lang:[u''] server lang:[u''] kex follows?False
+DEBUG    [2017-03-28 14:41:47,280] Kex agreed: diffie-hellman-group1-sha1
+DEBUG    [2017-03-28 14:41:47,281] Cipher agreed: aes128-ctr
+DEBUG    [2017-03-28 14:41:47,281] MAC agreed: hmac-md5
+DEBUG    [2017-03-28 14:41:47,281] Compression agreed: none
+DEBUG    [2017-03-28 14:41:48,459] kex engine KexGroup1 specified hash_algo <built-in function openssl_sha1>
+DEBUG    [2017-03-28 14:41:48,459] Switch to new keys ...
+DEBUG    [2017-03-28 14:41:48,463] Adding ssh-rsa host key for 89.113.3.131: a40d7fd7be0daf32c347fd4c812440ff
+DEBUG    [2017-03-28 14:41:49,315] userauth is OK
+INFO     [2017-03-28 14:41:49,820] Authentication (password) successful!
+DEBUG    [2017-03-28 14:41:49,838] [chan 0] Max packet in: 32768 bytes
+DEBUG    [2017-03-28 14:41:50,200] [chan 0] Max packet out: 32768 bytes
+DEBUG    [2017-03-28 14:41:50,200] Secsh channel 0 opened.
+DEBUG    [2017-03-28 14:41:50,539] [chan 0] Sesch channel 0 request ok
+DEBUG    [2017-03-28 14:41:50,980] [chan 0] Sesch channel 0 request ok
+DEBUG    [2017-03-28 14:41:51,595] EOF in transport thread
+DEBUG    [2017-03-28 14:42:07,436] This is a debug message
+INFO     [2017-03-28 14:42:07,436] This is an info message
+WARNING  [2017-03-28 14:42:07,436] This is a warning
+ERROR    [2017-03-28 14:42:07,436] This is an error message
+CRITICAL [2017-03-28 14:42:07,436] FATAL!!!
+DEBUG    [2017-03-28 14:42:08,401] starting thread (client mode): 0xdd522f90L
+DEBUG    [2017-03-28 14:42:08,401] Local version/idstring: SSH-2.0-paramiko_2.1.2
+DEBUG    [2017-03-28 14:42:08,901] Remote version/idstring: SSH-2.0-Zyxel SSH server
+INFO     [2017-03-28 14:42:08,901] Connected (version 2.0, client Zyxel)
+DEBUG    [2017-03-28 14:42:09,922] kex algos:[u'diffie-hellman-group-exchange-sha1', u'diffie-hellman-group14-sha1', u'diffie-hellman-group1-sha1'] server key:[u'ssh-rsa'] client encrypt:[u'aes128-cbc', u'3des-cbc', u'blowfish-cbc', u'cast128-cbc', u'arcfour128', u'arcfour256', u'arcfour', u'aes192-cbc', u'aes256-cbc', u'rijndael-cbc@lysator.liu.se', u'aes128-ctr', u'aes192-ctr', u'aes256-ctr'] server encrypt:[u'aes128-cbc', u'3des-cbc', u'blowfish-cbc', u'cast128-cbc', u'arcfour128', u'arcfour256', u'arcfour', u'aes192-cbc', u'aes256-cbc', u'rijndael-cbc@lysator.liu.se', u'aes128-ctr', u'aes192-ctr', u'aes256-ctr'] client mac:[u'hmac-md5', u'hmac-sha1', u'hmac-ripemd160', u'hmac-ripemd160@openssh.com', u'hmac-sha1-96', u'hmac-md5-96'] server mac:[u'hmac-md5', u'hmac-sha1', u'hmac-ripemd160', u'hmac-ripemd160@openssh.com', u'hmac-sha1-96', u'hmac-md5-96'] client compress:[u'none', u'zlib@openssh.com'] server compress:[u'none', u'zlib@openssh.com'] client lang:[u''] server lang:[u''] kex follows?False
+DEBUG    [2017-03-28 14:42:09,923] Kex agreed: diffie-hellman-group1-sha1
+DEBUG    [2017-03-28 14:42:09,924] Cipher agreed: aes128-ctr
+DEBUG    [2017-03-28 14:42:09,924] MAC agreed: hmac-md5
+DEBUG    [2017-03-28 14:42:09,924] Compression agreed: none
+DEBUG    [2017-03-28 14:42:11,118] kex engine KexGroup1 specified hash_algo <built-in function openssl_sha1>
+DEBUG    [2017-03-28 14:42:11,119] Switch to new keys ...
+DEBUG    [2017-03-28 14:42:11,130] Adding ssh-rsa host key for 89.113.3.131: a40d7fd7be0daf32c347fd4c812440ff
+DEBUG    [2017-03-28 14:42:11,781] userauth is OK
+INFO     [2017-03-28 14:42:12,201] Authentication (password) successful!
+DEBUG    [2017-03-28 14:42:12,207] [chan 0] Max packet in: 32768 bytes
+DEBUG    [2017-03-28 14:42:12,620] [chan 0] Max packet out: 32768 bytes
+DEBUG    [2017-03-28 14:42:12,621] Secsh channel 0 opened.
+DEBUG    [2017-03-28 14:42:13,045] [chan 0] Sesch channel 0 request ok
+DEBUG    [2017-03-28 14:42:13,377] [chan 0] Sesch channel 0 request ok
+DEBUG    [2017-03-28 14:42:17,858] EOF in transport thread
+DEBUG    [2017-03-28 14:43:06,299] This is a debug message
+INFO     [2017-03-28 14:43:06,299] This is an info message
+WARNING  [2017-03-28 14:43:06,299] This is a warning
+ERROR    [2017-03-28 14:43:06,299] This is an error message
+CRITICAL [2017-03-28 14:43:06,299] FATAL!!!
+DEBUG    [2017-03-28 14:43:07,619] starting thread (client mode): 0xa80c2f90L
+DEBUG    [2017-03-28 14:43:07,620] Local version/idstring: SSH-2.0-paramiko_2.1.2
+DEBUG    [2017-03-28 14:43:08,077] Remote version/idstring: SSH-2.0-Zyxel SSH server
+INFO     [2017-03-28 14:43:08,077] Connected (version 2.0, client Zyxel)
+DEBUG    [2017-03-28 14:43:08,964] kex algos:[u'diffie-hellman-group-exchange-sha1', u'diffie-hellman-group14-sha1', u'diffie-hellman-group1-sha1'] server key:[u'ssh-rsa'] client encrypt:[u'aes128-cbc', u'3des-cbc', u'blowfish-cbc', u'cast128-cbc', u'arcfour128', u'arcfour256', u'arcfour', u'aes192-cbc', u'aes256-cbc', u'rijndael-cbc@lysator.liu.se', u'aes128-ctr', u'aes192-ctr', u'aes256-ctr'] server encrypt:[u'aes128-cbc', u'3des-cbc', u'blowfish-cbc', u'cast128-cbc', u'arcfour128', u'arcfour256', u'arcfour', u'aes192-cbc', u'aes256-cbc', u'rijndael-cbc@lysator.liu.se', u'aes128-ctr', u'aes192-ctr', u'aes256-ctr'] client mac:[u'hmac-md5', u'hmac-sha1', u'hmac-ripemd160', u'hmac-ripemd160@openssh.com', u'hmac-sha1-96', u'hmac-md5-96'] server mac:[u'hmac-md5', u'hmac-sha1', u'hmac-ripemd160', u'hmac-ripemd160@openssh.com', u'hmac-sha1-96', u'hmac-md5-96'] client compress:[u'none', u'zlib@openssh.com'] server compress:[u'none', u'zlib@openssh.com'] client lang:[u''] server lang:[u''] kex follows?False
+DEBUG    [2017-03-28 14:43:08,964] Kex agreed: diffie-hellman-group1-sha1
+DEBUG    [2017-03-28 14:43:08,965] Cipher agreed: aes128-ctr
+DEBUG    [2017-03-28 14:43:08,965] MAC agreed: hmac-md5
+DEBUG    [2017-03-28 14:43:08,965] Compression agreed: none
+DEBUG    [2017-03-28 14:43:10,069] kex engine KexGroup1 specified hash_algo <built-in function openssl_sha1>
+DEBUG    [2017-03-28 14:43:10,070] Switch to new keys ...
+DEBUG    [2017-03-28 14:43:10,080] Adding ssh-rsa host key for 89.113.3.131: a40d7fd7be0daf32c347fd4c812440ff
+DEBUG    [2017-03-28 14:43:10,676] userauth is OK
+INFO     [2017-03-28 14:43:11,077] Authentication (password) successful!
+DEBUG    [2017-03-28 14:43:11,092] [chan 0] Max packet in: 32768 bytes
+DEBUG    [2017-03-28 14:43:11,397] [chan 0] Max packet out: 32768 bytes
+DEBUG    [2017-03-28 14:43:11,398] Secsh channel 0 opened.
+DEBUG    [2017-03-28 14:43:11,697] [chan 0] Sesch channel 0 request ok
+DEBUG    [2017-03-28 14:43:12,021] [chan 0] Sesch channel 0 request ok
+DEBUG    [2017-03-28 14:43:13,579] EOF in transport thread
+DEBUG    [2017-03-28 14:43:58,792] This is a debug message
+INFO     [2017-03-28 14:43:58,792] This is an info message
+WARNING  [2017-03-28 14:43:58,792] This is a warning
+ERROR    [2017-03-28 14:43:58,792] This is an error message
+CRITICAL [2017-03-28 14:43:58,792] FATAL!!!
+DEBUG    [2017-03-28 14:44:00,103] starting thread (client mode): 0xe6468f90L
+DEBUG    [2017-03-28 14:44:00,105] Local version/idstring: SSH-2.0-paramiko_2.1.2
+DEBUG    [2017-03-28 14:44:00,538] Remote version/idstring: SSH-2.0-Zyxel SSH server
+INFO     [2017-03-28 14:44:00,539] Connected (version 2.0, client Zyxel)
+DEBUG    [2017-03-28 14:44:01,498] kex algos:[u'diffie-hellman-group-exchange-sha1', u'diffie-hellman-group14-sha1', u'diffie-hellman-group1-sha1'] server key:[u'ssh-rsa'] client encrypt:[u'aes128-cbc', u'3des-cbc', u'blowfish-cbc', u'cast128-cbc', u'arcfour128', u'arcfour256', u'arcfour', u'aes192-cbc', u'aes256-cbc', u'rijndael-cbc@lysator.liu.se', u'aes128-ctr', u'aes192-ctr', u'aes256-ctr'] server encrypt:[u'aes128-cbc', u'3des-cbc', u'blowfish-cbc', u'cast128-cbc', u'arcfour128', u'arcfour256', u'arcfour', u'aes192-cbc', u'aes256-cbc', u'rijndael-cbc@lysator.liu.se', u'aes128-ctr', u'aes192-ctr', u'aes256-ctr'] client mac:[u'hmac-md5', u'hmac-sha1', u'hmac-ripemd160', u'hmac-ripemd160@openssh.com', u'hmac-sha1-96', u'hmac-md5-96'] server mac:[u'hmac-md5', u'hmac-sha1', u'hmac-ripemd160', u'hmac-ripemd160@openssh.com', u'hmac-sha1-96', u'hmac-md5-96'] client compress:[u'none', u'zlib@openssh.com'] server compress:[u'none', u'zlib@openssh.com'] client lang:[u''] server lang:[u''] kex follows?False
+DEBUG    [2017-03-28 14:44:01,498] Kex agreed: diffie-hellman-group1-sha1
+DEBUG    [2017-03-28 14:44:01,498] Cipher agreed: aes128-ctr
+DEBUG    [2017-03-28 14:44:01,499] MAC agreed: hmac-md5
+DEBUG    [2017-03-28 14:44:01,499] Compression agreed: none
+DEBUG    [2017-03-28 14:44:02,417] kex engine KexGroup1 specified hash_algo <built-in function openssl_sha1>
+DEBUG    [2017-03-28 14:44:02,418] Switch to new keys ...
+DEBUG    [2017-03-28 14:44:02,424] Adding ssh-rsa host key for 89.113.3.131: a40d7fd7be0daf32c347fd4c812440ff
+DEBUG    [2017-03-28 14:44:03,220] userauth is OK
+INFO     [2017-03-28 14:44:03,683] Authentication (password) successful!
+DEBUG    [2017-03-28 14:44:03,706] [chan 0] Max packet in: 32768 bytes
+DEBUG    [2017-03-28 14:44:04,070] [chan 0] Max packet out: 32768 bytes
+DEBUG    [2017-03-28 14:44:04,071] Secsh channel 0 opened.
+DEBUG    [2017-03-28 14:44:05,070] [chan 0] Sesch channel 0 request ok
+DEBUG    [2017-03-28 14:44:05,442] [chan 0] Sesch channel 0 request ok
+DEBUG    [2017-03-28 14:44:07,540] EOF in transport thread
+DEBUG    [2017-03-28 14:45:34,904] This is a debug message
+INFO     [2017-03-28 14:45:34,904] This is an info message
+WARNING  [2017-03-28 14:45:34,904] This is a warning
+ERROR    [2017-03-28 14:45:34,904] This is an error message
+CRITICAL [2017-03-28 14:45:34,904] FATAL!!!
+DEBUG    [2017-03-28 14:45:44,093] starting thread (client mode): 0x6df63f90L
+DEBUG    [2017-03-28 14:45:44,094] Local version/idstring: SSH-2.0-paramiko_2.1.2
+DEBUG    [2017-03-28 14:45:44,369] Remote version/idstring: SSH-2.0-Zyxel SSH server
+INFO     [2017-03-28 14:45:44,369] Connected (version 2.0, client Zyxel)
+DEBUG    [2017-03-28 14:45:45,051] kex algos:[u'diffie-hellman-group-exchange-sha1', u'diffie-hellman-group14-sha1', u'diffie-hellman-group1-sha1'] server key:[u'ssh-rsa'] client encrypt:[u'aes128-cbc', u'3des-cbc', u'blowfish-cbc', u'cast128-cbc', u'arcfour128', u'arcfour256', u'arcfour', u'aes192-cbc', u'aes256-cbc', u'rijndael-cbc@lysator.liu.se', u'aes128-ctr', u'aes192-ctr', u'aes256-ctr'] server encrypt:[u'aes128-cbc', u'3des-cbc', u'blowfish-cbc', u'cast128-cbc', u'arcfour128', u'arcfour256', u'arcfour', u'aes192-cbc', u'aes256-cbc', u'rijndael-cbc@lysator.liu.se', u'aes128-ctr', u'aes192-ctr', u'aes256-ctr'] client mac:[u'hmac-md5', u'hmac-sha1', u'hmac-ripemd160', u'hmac-ripemd160@openssh.com', u'hmac-sha1-96', u'hmac-md5-96'] server mac:[u'hmac-md5', u'hmac-sha1', u'hmac-ripemd160', u'hmac-ripemd160@openssh.com', u'hmac-sha1-96', u'hmac-md5-96'] client compress:[u'none', u'zlib@openssh.com'] server compress:[u'none', u'zlib@openssh.com'] client lang:[u''] server lang:[u''] kex follows?False
+DEBUG    [2017-03-28 14:45:45,052] Kex agreed: diffie-hellman-group1-sha1
+DEBUG    [2017-03-28 14:45:45,053] Cipher agreed: aes128-ctr
+DEBUG    [2017-03-28 14:45:45,053] MAC agreed: hmac-md5
+DEBUG    [2017-03-28 14:45:45,054] Compression agreed: none
+DEBUG    [2017-03-28 14:45:46,446] kex engine KexGroup1 specified hash_algo <built-in function openssl_sha1>
+DEBUG    [2017-03-28 14:45:46,447] Switch to new keys ...
+DEBUG    [2017-03-28 14:45:46,457] Adding ssh-rsa host key for 89.113.3.131: a40d7fd7be0daf32c347fd4c812440ff
+DEBUG    [2017-03-28 14:45:46,849] userauth is OK
+INFO     [2017-03-28 14:45:47,030] Authentication (password) successful!
+DEBUG    [2017-03-28 14:45:47,033] [chan 0] Max packet in: 32768 bytes
+DEBUG    [2017-03-28 14:45:47,309] [chan 0] Max packet out: 32768 bytes
+DEBUG    [2017-03-28 14:45:47,309] Secsh channel 0 opened.
+DEBUG    [2017-03-28 14:45:47,549] [chan 0] Sesch channel 0 request ok
+DEBUG    [2017-03-28 14:45:47,769] [chan 0] Sesch channel 0 request ok
+DEBUG    [2017-03-28 14:45:48,795] EOF in transport thread
+DEBUG    [2017-03-28 14:51:43,515] This is a debug message
+INFO     [2017-03-28 14:51:43,515] This is an info message
+WARNING  [2017-03-28 14:51:43,515] This is a warning
+ERROR    [2017-03-28 14:51:43,515] This is an error message
+CRITICAL [2017-03-28 14:51:43,515] FATAL!!!
+DEBUG    [2017-03-28 14:51:48,521] starting thread (client mode): 0xc06e1f90L
+DEBUG    [2017-03-28 14:51:48,522] Local version/idstring: SSH-2.0-paramiko_2.1.2
+DEBUG    [2017-03-28 14:51:48,719] Remote version/idstring: SSH-2.0-Zyxel SSH server
+INFO     [2017-03-28 14:51:48,719] Connected (version 2.0, client Zyxel)
+DEBUG    [2017-03-28 14:51:49,319] kex algos:[u'diffie-hellman-group-exchange-sha1', u'diffie-hellman-group14-sha1', u'diffie-hellman-group1-sha1'] server key:[u'ssh-rsa'] client encrypt:[u'aes128-cbc', u'3des-cbc', u'blowfish-cbc', u'cast128-cbc', u'arcfour128', u'arcfour256', u'arcfour', u'aes192-cbc', u'aes256-cbc', u'rijndael-cbc@lysator.liu.se', u'aes128-ctr', u'aes192-ctr', u'aes256-ctr'] server encrypt:[u'aes128-cbc', u'3des-cbc', u'blowfish-cbc', u'cast128-cbc', u'arcfour128', u'arcfour256', u'arcfour', u'aes192-cbc', u'aes256-cbc', u'rijndael-cbc@lysator.liu.se', u'aes128-ctr', u'aes192-ctr', u'aes256-ctr'] client mac:[u'hmac-md5', u'hmac-sha1', u'hmac-ripemd160', u'hmac-ripemd160@openssh.com', u'hmac-sha1-96', u'hmac-md5-96'] server mac:[u'hmac-md5', u'hmac-sha1', u'hmac-ripemd160', u'hmac-ripemd160@openssh.com', u'hmac-sha1-96', u'hmac-md5-96'] client compress:[u'none', u'zlib@openssh.com'] server compress:[u'none', u'zlib@openssh.com'] client lang:[u''] server lang:[u''] kex follows?False
+DEBUG    [2017-03-28 14:51:49,320] Kex agreed: diffie-hellman-group1-sha1
+DEBUG    [2017-03-28 14:51:49,320] Cipher agreed: aes128-ctr
+DEBUG    [2017-03-28 14:51:49,321] MAC agreed: hmac-md5
+DEBUG    [2017-03-28 14:51:49,321] Compression agreed: none
+DEBUG    [2017-03-28 14:51:50,413] kex engine KexGroup1 specified hash_algo <built-in function openssl_sha1>
+DEBUG    [2017-03-28 14:51:50,414] Switch to new keys ...
+DEBUG    [2017-03-28 14:51:50,415] Adding ssh-rsa host key for 89.113.3.131: a40d7fd7be0daf32c347fd4c812440ff
+DEBUG    [2017-03-28 14:51:50,820] userauth is OK
+INFO     [2017-03-28 14:51:51,019] Authentication (password) successful!
+DEBUG    [2017-03-28 14:51:51,023] [chan 0] Max packet in: 32768 bytes
+DEBUG    [2017-03-28 14:51:51,199] [chan 0] Max packet out: 32768 bytes
+DEBUG    [2017-03-28 14:51:51,199] Secsh channel 0 opened.
+DEBUG    [2017-03-28 14:51:51,379] [chan 0] Sesch channel 0 request ok
+DEBUG    [2017-03-28 14:51:51,559] [chan 0] Sesch channel 0 request ok
+DEBUG    [2017-03-28 14:51:53,240] EOF in transport thread
+DEBUG    [2017-03-28 14:51:59,958] This is a debug message
+INFO     [2017-03-28 14:51:59,959] This is an info message
+WARNING  [2017-03-28 14:51:59,959] This is a warning
+ERROR    [2017-03-28 14:51:59,959] This is an error message
+CRITICAL [2017-03-28 14:51:59,959] FATAL!!!
+DEBUG    [2017-03-28 14:52:00,137] starting thread (client mode): 0x9e3c1f90L
+DEBUG    [2017-03-28 14:52:00,139] Local version/idstring: SSH-2.0-paramiko_2.1.2
+DEBUG    [2017-03-28 14:52:00,336] Remote version/idstring: SSH-2.0-Zyxel SSH server
+INFO     [2017-03-28 14:52:00,336] Connected (version 2.0, client Zyxel)
+DEBUG    [2017-03-28 14:52:00,856] kex algos:[u'diffie-hellman-group-exchange-sha1', u'diffie-hellman-group14-sha1', u'diffie-hellman-group1-sha1'] server key:[u'ssh-rsa'] client encrypt:[u'aes128-cbc', u'3des-cbc', u'blowfish-cbc', u'cast128-cbc', u'arcfour128', u'arcfour256', u'arcfour', u'aes192-cbc', u'aes256-cbc', u'rijndael-cbc@lysator.liu.se', u'aes128-ctr', u'aes192-ctr', u'aes256-ctr'] server encrypt:[u'aes128-cbc', u'3des-cbc', u'blowfish-cbc', u'cast128-cbc', u'arcfour128', u'arcfour256', u'arcfour', u'aes192-cbc', u'aes256-cbc', u'rijndael-cbc@lysator.liu.se', u'aes128-ctr', u'aes192-ctr', u'aes256-ctr'] client mac:[u'hmac-md5', u'hmac-sha1', u'hmac-ripemd160', u'hmac-ripemd160@openssh.com', u'hmac-sha1-96', u'hmac-md5-96'] server mac:[u'hmac-md5', u'hmac-sha1', u'hmac-ripemd160', u'hmac-ripemd160@openssh.com', u'hmac-sha1-96', u'hmac-md5-96'] client compress:[u'none', u'zlib@openssh.com'] server compress:[u'none', u'zlib@openssh.com'] client lang:[u''] server lang:[u''] kex follows?False
+DEBUG    [2017-03-28 14:52:00,856] Kex agreed: diffie-hellman-group1-sha1
+DEBUG    [2017-03-28 14:52:00,859] Cipher agreed: aes128-ctr
+DEBUG    [2017-03-28 14:52:00,859] MAC agreed: hmac-md5
+DEBUG    [2017-03-28 14:52:00,860] Compression agreed: none
+DEBUG    [2017-03-28 14:52:01,955] kex engine KexGroup1 specified hash_algo <built-in function openssl_sha1>
+DEBUG    [2017-03-28 14:52:01,956] Switch to new keys ...
+DEBUG    [2017-03-28 14:52:01,960] Adding ssh-rsa host key for 89.113.3.131: a40d7fd7be0daf32c347fd4c812440ff
+DEBUG    [2017-03-28 14:52:02,334] userauth is OK
+INFO     [2017-03-28 14:52:02,495] Authentication (password) successful!
+DEBUG    [2017-03-28 14:52:02,527] [chan 0] Max packet in: 32768 bytes
+DEBUG    [2017-03-28 14:52:02,715] [chan 0] Max packet out: 32768 bytes
+DEBUG    [2017-03-28 14:52:02,716] Secsh channel 0 opened.
+DEBUG    [2017-03-28 14:52:02,896] [chan 0] Sesch channel 0 request ok
+DEBUG    [2017-03-28 14:52:03,096] [chan 0] Sesch channel 0 request ok
+DEBUG    [2017-03-28 14:52:04,221] EOF in transport thread
+DEBUG    [2017-03-28 14:53:07,762] This is a debug message
+INFO     [2017-03-28 14:53:07,762] This is an info message
+WARNING  [2017-03-28 14:53:07,762] This is a warning
+ERROR    [2017-03-28 14:53:07,762] This is an error message
+CRITICAL [2017-03-28 14:53:07,762] FATAL!!!
+DEBUG    [2017-03-28 14:53:09,916] starting thread (client mode): 0x2e3bff90L
+DEBUG    [2017-03-28 14:53:09,918] Local version/idstring: SSH-2.0-paramiko_2.1.2
+DEBUG    [2017-03-28 14:53:10,235] Remote version/idstring: SSH-2.0-Zyxel SSH server
+INFO     [2017-03-28 14:53:10,236] Connected (version 2.0, client Zyxel)
+DEBUG    [2017-03-28 14:53:10,776] kex algos:[u'diffie-hellman-group-exchange-sha1', u'diffie-hellman-group14-sha1', u'diffie-hellman-group1-sha1'] server key:[u'ssh-rsa'] client encrypt:[u'aes128-cbc', u'3des-cbc', u'blowfish-cbc', u'cast128-cbc', u'arcfour128', u'arcfour256', u'arcfour', u'aes192-cbc', u'aes256-cbc', u'rijndael-cbc@lysator.liu.se', u'aes128-ctr', u'aes192-ctr', u'aes256-ctr'] server encrypt:[u'aes128-cbc', u'3des-cbc', u'blowfish-cbc', u'cast128-cbc', u'arcfour128', u'arcfour256', u'arcfour', u'aes192-cbc', u'aes256-cbc', u'rijndael-cbc@lysator.liu.se', u'aes128-ctr', u'aes192-ctr', u'aes256-ctr'] client mac:[u'hmac-md5', u'hmac-sha1', u'hmac-ripemd160', u'hmac-ripemd160@openssh.com', u'hmac-sha1-96', u'hmac-md5-96'] server mac:[u'hmac-md5', u'hmac-sha1', u'hmac-ripemd160', u'hmac-ripemd160@openssh.com', u'hmac-sha1-96', u'hmac-md5-96'] client compress:[u'none', u'zlib@openssh.com'] server compress:[u'none', u'zlib@openssh.com'] client lang:[u''] server lang:[u''] kex follows?False
+DEBUG    [2017-03-28 14:53:10,777] Kex agreed: diffie-hellman-group1-sha1
+DEBUG    [2017-03-28 14:53:10,777] Cipher agreed: aes128-ctr
+DEBUG    [2017-03-28 14:53:10,778] MAC agreed: hmac-md5
+DEBUG    [2017-03-28 14:53:10,778] Compression agreed: none
+DEBUG    [2017-03-28 14:53:11,577] kex engine KexGroup1 specified hash_algo <built-in function openssl_sha1>
+DEBUG    [2017-03-28 14:53:11,578] Switch to new keys ...
+DEBUG    [2017-03-28 14:53:11,599] Adding ssh-rsa host key for 89.113.3.131: a40d7fd7be0daf32c347fd4c812440ff
+DEBUG    [2017-03-28 14:53:12,116] userauth is OK
+INFO     [2017-03-28 14:53:12,295] Authentication (password) successful!
+DEBUG    [2017-03-28 14:53:12,305] [chan 0] Max packet in: 32768 bytes
+DEBUG    [2017-03-28 14:53:12,496] [chan 0] Max packet out: 32768 bytes
+DEBUG    [2017-03-28 14:53:12,496] Secsh channel 0 opened.
+DEBUG    [2017-03-28 14:53:12,675] [chan 0] Sesch channel 0 request ok
+DEBUG    [2017-03-28 14:53:12,876] [chan 0] Sesch channel 0 request ok
+DEBUG    [2017-03-28 14:53:13,719] EOF in transport thread

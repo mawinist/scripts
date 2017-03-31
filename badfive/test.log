@@ -1,0 +1,126 @@
+Tue Mar 28 16:12:43 2017
+Now usg-40 is: 83.220.249.73
+
+ping 8.8.8.8 count 5
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=42 time=225 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=42 time=224 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=42 time=223 ms
+64 bytes from 8.8.8.8: icmp_seq=4 ttl=42 time=231 ms
+64 bytes from 8.8.8.8: icmp_seq=5 ttl=42 time=230 ms
+
+--- 8.8.8.8 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4004ms
+rtt min/avg/max/mdev = 223.188/227.153/231.806/3.530 ms
+Router> 
+show interface cellular device-status
+cellular device info: 1
+  interface name: cellular1
+  extension slot: USB 1
+  service provider: Beeline
+  cellular system: HSPA
+  signal strength: -65 dBm
+  signal quality: Excellent
+  device type: WCDMA
+  device manufacturer: Huawei-Generic
+  device model: Generic Card
+  device firmware: 21.158.23.00.209
+  device IMEI/ESN: 860110026389581
+  SIM card IMSI: 250997247851145
+Router> 
+_____________________________________________
+Tue Mar 28 16:13:30 2017
+Now usg-40 is: 83.220.249.73
+
+ping 8.8.8.8 count 5
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=42 time=214 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=42 time=214 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=42 time=224 ms
+64 bytes from 8.8.8.8: icmp_seq=4 ttl=42 time=244 ms
+64 bytes from 8.8.8.8: icmp_seq=5 ttl=42 time=244 ms
+
+--- 8.8.8.8 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 3999ms
+rtt min/avg/max/mdev = 214.720/228.877/244.939/13.630 ms
+Router> 
+show interface cellular device-status
+cellular device info: 1
+  interface name: cellular1
+  extension slot: USB 1
+  service provider: Beeline
+  cellular system: HSPA
+  signal strength: -65 dBm
+  signal quality: Excellent
+  device type: WCDMA
+  device manufacturer: Huawei-Generic
+  device model: Generic Card
+  device firmware: 21.158.23.00.209
+  device IMEI/ESN: 860110026389581
+  SIM card IMSI: 250997247851145
+Router> 
+_____________________________________________
+Tue Mar 28 16:17:14 2017
+Now usg-40 is: 83.220.249.73
+
+ping 8.8.8.8 count 5
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=42 time=215 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=42 time=214 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=42 time=214 ms
+64 bytes from 8.8.8.8: icmp_seq=4 ttl=42 time=224 ms
+64 bytes from 8.8.8.8: icmp_seq=5 ttl=42 time=224 ms
+
+--- 8.8.8.8 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4000ms
+rtt min/avg/max/mdev = 214.870/218.995/224.971/4.881 ms
+Router> 
+show interface cellular device-status
+cellular device info: 1
+  interface name: cellular1
+  extension slot: USB 1
+  service provider: Beeline
+  cellular system: HSPA
+  signal strength: -65 dBm
+  signal quality: Excellent
+  device type: WCDMA
+  device manufacturer: Huawei-Generic
+  device model: Generic Card
+  device firmware: 21.158.23.00.209
+  device IMEI/ESN: 860110026389581
+  SIM card IMSI: 250997247851145
+Router> 
+_____________________________________________
+
+Tue Mar 28 16:19:02 2017
+Now usg-40 is: 83.220.249.73
+
+ping 8.8.8.8 count 5
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=42 time=286 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=42 time=246 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=42 time=224 ms
+64 bytes from 8.8.8.8: icmp_seq=4 ttl=42 time=223 ms
+64 bytes from 8.8.8.8: icmp_seq=5 ttl=42 time=222 ms
+
+--- 8.8.8.8 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4003ms
+rtt min/avg/max/mdev = 222.922/240.870/286.547/24.399 ms
+Router> 
+show interface cellular device-status
+cellular device info: 1
+  interface name: cellular1
+  extension slot: USB 1
+  service provider: Beeline
+  cellular system: HSPA
+  signal strength: -65 dBm
+  signal quality: Excellent
+  device type: WCDMA
+  device manufacturer: Huawei-Generic
+  device model: Generic Card
+  device firmware: 21.158.23.00.209
+  device IMEI/ESN: 860110026389581
+  SIM card IMSI: 250997247851145
+Router> 
+_____________________________________________
+
